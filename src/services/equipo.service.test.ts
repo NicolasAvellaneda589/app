@@ -1,6 +1,6 @@
 import { describe, it, expect, beforeEach } from 'vitest';
-import { EquipoService } from './equipo.service';
-import { Reloj } from '../utils/reloj';
+import { EquipoService } from './equipo.service.js';
+import { Reloj } from '../utils/reloj.js';;
 
 describe('EquipoService - Lógica de Negocio', () => {
   beforeEach(() => {

@@ -1,7 +1,7 @@
 import express from 'express';
 import dotenv from 'dotenv';
-import { checkConnection } from './config/db';
-import { equipoRouter } from './routes/equipo.routes';
+import { checkConnection } from './config/db.js';
+import { equipoRouter } from './routes/equipo.routes.js';
 
 dotenv.config();
 

@@ -1,7 +1,7 @@
-import { Request, Response } from 'express';
-import { EquipoRepository } from '../repositories/equipo.repository';
-import { EquipoService } from '../services/equipo.service';
-import { Reloj } from '../utils/reloj';
+import type { Request, Response } from 'express';;
+import { EquipoRepository } from '../repositories/equipo.repository.js';
+import { EquipoService } from '../services/equipo.service.js';
+import { Reloj } from '../utils/reloj.js';
 
 export class EquipoController {
   

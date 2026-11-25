@@ -1,5 +1,5 @@
 import { describe, it, expect, beforeEach } from 'vitest';
-import { Reloj } from './reloj';
+import { Reloj } from './reloj.js';
 
 describe('Utilidad Reloj', () => {
   beforeEach(() => {
